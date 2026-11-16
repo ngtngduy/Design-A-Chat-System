@@ -42,6 +42,10 @@ kotlin {
             implementation(libs.ktor.serialization.kotlinx.json)
         }
 
+        androidMain.dependencies {
+            implementation(libs.kotlinx.coroutines.android)
+        }
+
         desktopMain.dependencies {
             implementation(compose.desktop.currentOs)
             implementation(libs.kotlinx.coroutines.swing)
