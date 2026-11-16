@@ -2,6 +2,7 @@
 kotlin = "2.3.20"
 agp = "9.1.0"
 composeMultiplatform = "1.12.1"
+composeMaterial3 = "1.12.0-alpha03"
 ktor = "3.6.1"
 kotlinxSerialization = "1.13.0"
 kotlinxCoroutines = "1.11.0"
@@ -21,7 +22,8 @@ kotlin-test = { module = "org.jetbrains.kotlin:kotlin-test", version.ref = "kotl
 # Compose Multiplatform (tường minh theo chuẩn Compose 1.12+)
 compose-runtime = { module = "org.jetbrains.compose.runtime:runtime", version.ref = "composeMultiplatform" }
 compose-foundation = { module = "org.jetbrains.compose.foundation:foundation", version.ref = "composeMultiplatform" }
-compose-material3 = { module = "org.jetbrains.compose.material3:material3", version.ref = "composeMultiplatform" }
+compose-foundation-layout = { module = "org.jetbrains.compose.foundation:foundation-layout", version.ref = "composeMultiplatform" }
+compose-material3 = { module = "org.jetbrains.compose.material3:material3", version.ref = "composeMaterial3" }
 compose-ui = { module = "org.jetbrains.compose.ui:ui", version.ref = "composeMultiplatform" }
 compose-ui-tooling-preview = { module = "org.jetbrains.compose.ui:ui-tooling-preview", version.ref = "composeMultiplatform" }
 
