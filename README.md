@@ -3,8 +3,7 @@
 > **Báo cáo eLearning — Môn: Lập trình thiết bị di động**
 > - **Giảng viên hướng dẫn:** Trương Quang Tuấn
 > - **Sinh viên thực hiện:** Nguyễn Tùng Duy
-> - **Slide thuyết trình (HTML tương tác, chạy song song với Demo):** [Mở `docs/index.html`](./docs/index.html) *(hoặc qua GitHub Pages: `https://ngtngduy.github.io/Design-A-Chat-System/`)*
-> - **Tài liệu ôn câu hỏi phản biện (Deep Q&A):** [`docs/qa-notes.md`](./docs/qa-notes.md)
+> - **Slide thuyết trình (PowerPoint):** [`Design-A-Chat-System.pptx`](./Design-A-Chat-System.pptx)
 
 ---
 
@@ -139,15 +138,13 @@ sequenceDiagram
 
 ```text
 Design-A-Chat-System/
-├── README.md                  # Tài liệu tổng quan & hướng dẫn chạy
-├── run-server.sh              # Script khởi chạy cụm Server độc lập (8080, 8081, 8082)
-├── docs/
-│   ├── index.html             # Bộ 12 Slide HTML tương tác + Speaker Notes (GitHub Pages)
-│   └── qa-notes.md            # Tài liệu giải thích sâu bản chất & bộ câu hỏi phản biện Q&A
-├── shared/                    # Module KMP dùng chung (Models, Protocol, DemoCatalog)
-├── server/                    # Backend Ktor (API, Discovery, 2 Chat Servers, Router, KV, Presence)
-├── composeApp/                # Giao diện & logic Compose Multiplatform (commonMain + desktopMain)
-└── androidApp/                # Ứng dụng Android (MainActivity gọi vào composeApp)
+├── README.md                    # Tài liệu tổng quan & hướng dẫn chạy
+├── Design-A-Chat-System.pptx    # Bộ Slide thuyết trình PowerPoint (12 slides)
+├── run-server.sh                # Script khởi chạy cụm Server độc lập (8080, 8081, 8082)
+├── shared/                      # Module KMP dùng chung (Models, Protocol, DemoCatalog)
+├── server/                      # Backend Ktor (API, Discovery, 2 Chat Servers, Router, KV, Presence)
+├── composeApp/                  # Giao diện & logic Compose Multiplatform (commonMain + desktopMain)
+└── androidApp/                  # Ứng dụng Android (MainActivity gọi vào composeApp)
 ```
 
 ---
